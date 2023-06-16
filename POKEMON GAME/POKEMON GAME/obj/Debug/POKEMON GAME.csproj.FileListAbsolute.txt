@@ -1,0 +1,60 @@
+E:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+E:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+E:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csprojAssemblyReference.cache
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.CoreCompileInputs.cache
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb
+E:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+F:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+F:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+F:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csprojAssemblyReference.cache
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+F:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb
+D:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+D:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+D:\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csprojAssemblyReference.cache
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.CoreCompileInputs.cache
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+D:\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csprojAssemblyReference.cache
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.CoreCompileInputs.cache
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+C:\Users\ARNDAWG\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.AssemblyReference.cache
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.SuggestedBindingRedirects.cache
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.CoreCompileInputs.cache
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+C:\Users\arnie\OneDrive\Documents\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe.config
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.exe
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\bin\Debug\POKEMON GAME.pdb
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.AssemblyReference.cache
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Form1.resources
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON_GAME.Properties.Resources.resources
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.GenerateResource.cache
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.csproj.CoreCompileInputs.cache
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.exe
+C:\Users\arnie\OneDrive\Documents\Portfolio Games\POKEMON GAME\POKEMON GAME\obj\Debug\POKEMON GAME.pdb

@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F67B3389-D18B-4A69-A9F7-56DA6BA00ACD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>POKEMON_GAME</RootNamespace>
+    <AssemblyName>POKEMON GAME</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NPC.cs" />
+    <Compile Include="NPCstatic.cs" />
+    <Compile Include="pokeball.cs" />
+    <Compile Include="pokemon.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sign.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moving left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingdown.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingdown.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingdown2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingleft.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingright.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingup.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingup.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\movingup2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\proffesor" />
+    <None Include="Resources\right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yiyi.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Webp.net-resizeimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tree1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC1Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC1left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC1Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC1Up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC2Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC2Up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC2Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC2Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC3Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC3Up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC3Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC3Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\floor.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fence.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lab.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sign.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tallGrass.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\path.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inGrass.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mat.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC4Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC4Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC4Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokeball.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\charmander.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\squirtle.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulbasaur.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rattata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pidgey.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBulbasaur.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleCharmander.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleSquirtle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBox.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBox2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlePidgey %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleRattata %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleCharmander2 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleBulbasaur2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleSquirtle2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleSquirtle3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\missingNo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlepidgey2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleRattata.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleRattata2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pokemonMenuBack.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bed.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\table.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\block.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wall.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\switchArrow.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Piskel %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oak %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\oak %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC5Down.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC5Up.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC5Left.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NPC5Right.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleMagikarp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleMagikarp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlePikachu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlepikachu2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlePsyduck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battlePsyduck2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleSlowpoke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleSlowpoke2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magikarp.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pikachu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slowpoke.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\psyduck.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
